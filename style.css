@@ -1,0 +1,43 @@
+/* if you think I ripped this off from the Quadratic Equation Solver Online repo then you're correct */
+/* Page styles */
+body {
+    background-color: black;
+    font-family: "Verdana", "Calibri";
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+/* Classes */
+
+.push-left p {
+    margin: 0.1% 0.1%;
+}
+
+.horizontal-center {
+    margin: auto;
+    text-align: center;
+}
+
+.horizontal-center p, h1, h5 {
+    margin: 0.9%;
+}
+
+/* Hiding number buttons */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* For Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
